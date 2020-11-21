@@ -25,7 +25,7 @@ function likeCallback(e) {
       // mimic Pillar 3 (Server Communication) to only update the screen if the
       // sending of information to the server succeeds.
       alert("You notified the server!");
-      // alert(serverMessage);
+      alert(serverMessage);
       heart.innerText = glyphStates[heart.innerText];
       heart.style.color = colorStates[heart.style.color];
     })
